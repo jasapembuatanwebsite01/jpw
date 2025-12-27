@@ -56,7 +56,7 @@ export default function Navbar() {
           ))}
 
           <Link
-            href="https://wa.me/6281234567890"
+            href="https://wa.me/6281212435026"
             target="_blank"
             className="bg-indigo-600 text-white px-5 py-2 rounded-full shadow-md hover:bg-indigo-700 hover:shadow-lg transition text-sm"
           >
@@ -99,7 +99,7 @@ export default function Navbar() {
           ))}
 
           <Link
-            href="https://wa.me/6281234567890"
+            href="https://wa.me/6281212435026"
             target="_blank"
             onClick={() => setOpen(false)}
             className="bg-indigo-600 text-white px-10 py-3 rounded-full shadow-md hover:bg-indigo-700"

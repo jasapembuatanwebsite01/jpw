@@ -40,7 +40,7 @@ export default function Home() {
                   Lihat Portfolio 👇
                 </Link>
                 <Link
-                  href="#keunggulan"
+                  href="#kontak"
                   className="px-8 py-3 rounded-xl font-semibold text-white bg-slate-900 shadow-lg hover:bg-slate-800 hover:-translate-y-0.5 transition"
                 >
                   Konsultasi Gratis
@@ -61,8 +61,8 @@ export default function Home() {
             <div className="w-full lg:w-1/2">
               <div className="relative rounded-3xl bg-white shadow-2xl border border-slate-100 overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1600&auto=format&fit=crop"
-                  alt="Contoh tampilan website JPW"
+                  src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1600&auto=format&fit=crop"
+                  alt="Developer Coding Website"
                   width={900}
                   height={650}
                   className="w-full h-auto object-cover"
@@ -95,8 +95,9 @@ export default function Home() {
             <article className="group bg-slate-50 rounded-2xl border border-slate-100 overflow-hidden hover:bg-white hover:shadow-xl transition">
               <div className="relative h-56 bg-slate-200">
                 <Image
-                  src="https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?q=80&w=1200&auto=format&fit=crop"
-                  alt="Toko Online"
+                  /* Gambar orang belanja online / laptop */
+                  src="https://images.unsplash.com/photo-1588702547923-7093a6c3ba33?auto=format&fit=crop&w=1200&q=80"
+                  alt="Toko Online Modern"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -119,8 +120,8 @@ export default function Home() {
             <article className="group bg-slate-50 rounded-2xl border border-slate-100 overflow-hidden hover:bg-white hover:shadow-xl transition">
               <div className="relative h-56 bg-slate-200">
                 <Image
-                  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop"
-                  alt="Company Profile"
+                  src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?q=80&w=1600&auto=format&fit=crop"
+                  alt="Company Profile Website"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -143,8 +144,8 @@ export default function Home() {
             <article className="group bg-slate-50 rounded-2xl border border-slate-100 overflow-hidden hover:bg-white hover:shadow-xl transition">
               <div className="relative h-56 bg-slate-200">
                 <Image
-                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop"
-                  alt="Startup Landing"
+                  src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?auto=format&fit=crop&w=1200&q=80"
+                  alt="Grafik analytics untuk landing page"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -234,44 +235,23 @@ export default function Home() {
 
           <div className="bg-slate-50 border border-slate-200 rounded-2xl shadow-sm p-8 text-center space-y-4">
             <p className="text-slate-700 text-sm">
-              📞 WhatsApp: <b>+62 812-3456-7890</b>
+              📞 WhatsApp: <b>+62 812-1243-5026</b>
             </p>
             <p className="text-slate-700 text-sm">
-              📧 Email: <b>hello@jpwstudio.com</b>
+              📧 Email: <b>jpw.jasapembuatanwebsite@gmail.com</b>
             </p>
             <p className="text-slate-700 text-sm">
               📍 Jakarta, Indonesia
             </p>
 
             <a
-              href="https://wa.me/6281234567890"
+              href="https://wa.me/6281212435026"
               target="_blank"
               className="inline-flex items-center justify-center px-8 py-3 rounded-full bg-emerald-500 text-slate-900 font-semibold hover:bg-emerald-400 transition shadow-lg"
             >
               Chat via WhatsApp
             </a>
           </div>
-        </div>
-      </section>
-
-
-      {/* ================= CTA ================= */}
-      <section className="py-16 bg-white border-t border-slate-200">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">
-            Siap Naik Kelas dengan Website yang Serius?
-          </h2>
-          <p className="text-slate-600 mb-8 max-w-xl mx-auto">
-            Kirim kebutuhan bisnis Anda, tim JPW siap bantu rekomendasikan paket
-            yang paling pas untuk bisnis Anda.
-          </p>
-          <Link
-            href="https://wa.me/6281234567890"
-            target="_blank"
-            className="inline-flex items-center justify-center px-10 py-3 rounded-full bg-emerald-500 text-slate-900 font-semibold hover:bg-emerald-400 transition shadow-lg"
-          >
-            Chat via WhatsApp
-          </Link>
         </div>
       </section>
     </main>
